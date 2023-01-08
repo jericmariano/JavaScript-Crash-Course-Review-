@@ -1,2 +1,2 @@
-console.log(15 % 5)
-console.log(15 % 9)
+console.log(5 < 10)
+console.log(5 > 10)
