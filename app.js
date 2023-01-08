@@ -1,2 +1,2 @@
-console.log(5 < 10)
-console.log(5 > 10)
+console.log('yes' / 3) // NaN
+console.log(Math.sqrt(-50)) // NaN
