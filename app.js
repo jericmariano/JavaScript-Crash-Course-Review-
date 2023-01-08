@@ -1,14 +1,7 @@
-let fullName = 'Jeric Mariano'
+let bool = '1' === 1
 
-const isRaining = true
-let temperature = 20
-let planet = 'Earth'
+console.log(bool)
 
-temperature = temperature + 2
+bool = '1' !== 1
 
-// converting temperatures example
-
-let celsius = 10;
-let fahrenheit = celsius * 1.8 + 32;
-
-console.log(fahrenheit)
+console.log(bool)
