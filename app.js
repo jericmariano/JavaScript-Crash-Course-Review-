@@ -1,3 +1,5 @@
-let hot = true
+let subscribed = false
+let loggedIn = true
 
-hot ? console.log('weather is hot outside') : console.log('weather is cold')
+let str = subscribed || loggedIn ? 'show the video' : 'hide the video'
+console.log(str)
