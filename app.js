@@ -1,5 +1,6 @@
-let subscribed = false
-let loggedIn = true
+let cash = 50
+let price = 40
+let isStoreOpen = true
 
-let str = subscribed || loggedIn ? 'show the video' : 'hide the video'
+let str = (cash > price) && isStoreOpen ? 'give the receipt' : 'do not give the receipt'
 console.log(str)
