@@ -1,8 +1,9 @@
-let cash = 50
-let price = 40 
-let isStoreOpen = false
+let val = ""
 
-if (cash >= price || isStoreOpen === true) {
-    console.log(`print the receipt`)
+if ("0") {
+    console.log(`truthy`, !!val)
+}
+else {
+    console.log("falsy value")
 }
 
