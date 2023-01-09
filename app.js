@@ -1,9 +1,3 @@
-let val = ""
+let hot = true
 
-if ("0") {
-    console.log(`truthy`, !!val)
-}
-else {
-    console.log("falsy value")
-}
-
+hot ? console.log('weather is hot outside') : console.log('weather is cold')
