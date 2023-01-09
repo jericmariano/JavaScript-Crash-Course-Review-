@@ -1,12 +1,8 @@
-let cash = 30
-let price = 40
+let cash = 50
+let price = 40 
+let isStoreOpen = false
 
-if (cash > price) {
-    console.log(`you paid extra, here's ${cash - price} change`)
+if (cash >= price || isStoreOpen === true) {
+    console.log(`print the receipt`)
 }
-else if (cash === price) {
-    console.log("you paid the exact amount")
-}
-else {
-    console.log(`not enough money, you still owe ${price - cash} `)
-}
+
