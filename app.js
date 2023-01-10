@@ -1,9 +1,5 @@
-// console.log("Welcome to FES, J")
-// console.log("Welcome to FES, K")
-// console.log("Welcome to FES, L")
-
-function welcomePersonToFES(firstName, lastName) {
-    console.log(`Welcome to FES, ${firstName} ${lastName}`)
+function sumOfTwoNumbers(num1, num2) {
+    return num1 / num2
 }
 
-welcomePersonToFES('Jeric', 'Mariano');
+console.log(sumOfTwoNumbers(10, 20))
