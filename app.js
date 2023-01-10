@@ -2,10 +2,8 @@
 // console.log("Welcome to FES, K")
 // console.log("Welcome to FES, L")
 
-function welcomePersonToFES(name) {
-    console.log(`Welcome to FES, ${name}`)
+function welcomePersonToFES(firstName, lastName) {
+    console.log(`Welcome to FES, ${firstName} ${lastName}`)
 }
 
-welcomePersonToFES('Jeric');
-welcomePersonToFES('K');
-welcomePersonToFES('L');
+welcomePersonToFES('Jeric', 'Mariano');
