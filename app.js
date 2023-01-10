@@ -1,5 +1,11 @@
-let str = "Frontend Simplified"
+// console.log("Welcome to FES, J")
+// console.log("Welcome to FES, K")
+// console.log("Welcome to FES, L")
 
-for (let i = 0; i < str.length; i++) {
-    console.log(str[i])
+function welcomePersonToFES(name) {
+    console.log(`Welcome to FES, ${name}`)
 }
+
+welcomePersonToFES('Jeric');
+welcomePersonToFES('K');
+welcomePersonToFES('L');
