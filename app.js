@@ -1,20 +1,5 @@
-let grades = ['A+', 'A', 'FAIL']
+let arr = [1, 4, 9, 16]
 
+let newArray = arr.map(element => 1)
 
-// way 1
-for (let i = 0; i < grades.length; i++) 
-    if (grades[i] !== 'FAIL') {
-        console.log(grades[i])
-    }
-
-// way 2 (Create a new array)
-
-let goodGrades = []
-
-for (let i = 0; i < grades.length; i++) {
-    if (grades[i] !== 'FAIL') {
-        goodGrades.push(grades[i])
-    }
-}
-
-console.log(goodGrades)
+console.log(newArray)
