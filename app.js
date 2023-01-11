@@ -1,5 +1,14 @@
-let arr = [20, 30, 40, 50, 100]
+let grades = ['FAIL', 'FAIL', 'B']
 
-let newArr = arr.filter( element => element < 50)
+// the long way
+// let newGrades = grades.filter( (grade) => {
+//     if(grade !== 'FAIL') {
+//         return true
+//     }
+// })
 
-console.log(newArr)
+
+// the short way
+let newGrades = grades.filter (grade => grade !== 'FAIL')
+
+console.log(newGrades)
