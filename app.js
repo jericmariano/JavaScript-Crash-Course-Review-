@@ -1,9 +1,8 @@
-// function convertCelsiusToFahrenheit(celsius) {
-//     return celsius * 1.8 + 32
-// }
+let arr = [20, 30, 40, 50, 100]
 
-const convertCelsiusToFahrenheit = (celsius) => {
-    return celsius * 1.8 + 32
-}
+let newArr = arr.filter( (element) => {
+    console.log(element)
+    return true
+}) 
 
-console.log(convertCelsiusToFahrenheit(30))
+console.log(newArr)
