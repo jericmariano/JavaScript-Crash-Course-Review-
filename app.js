@@ -1,14 +1,20 @@
-let grades = ['FAIL', 'FAIL', 'B']
-
-// the long way
-// let newGrades = grades.filter( (grade) => {
-//     if(grade !== 'FAIL') {
-//         return true
-//     }
-// })
+let grades = ['A+', 'A', 'FAIL']
 
 
-// the short way
-let newGrades = grades.filter (grade => grade !== 'FAIL')
+// way 1
+for (let i = 0; i < grades.length; i++) 
+    if (grades[i] !== 'FAIL') {
+        console.log(grades[i])
+    }
 
-console.log(newGrades)
+// way 2 (Create a new array)
+
+let goodGrades = []
+
+for (let i = 0; i < grades.length; i++) {
+    if (grades[i] !== 'FAIL') {
+        goodGrades.push(grades[i])
+    }
+}
+
+console.log(goodGrades)
