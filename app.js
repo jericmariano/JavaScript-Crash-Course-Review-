@@ -1,7 +1,7 @@
-// First way of accessing an element
+// Change HTML
 
-console.log(document.querySelector('#title'))
+document.querySelector('#title').innerHTML = 'Frontend Simplified'
 
-// Second way
+// Change CSS
 
-console.log(document.getElementById('title')) 
+document.querySelector('#title').style.color = 'red'
